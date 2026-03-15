@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: ourladys-school-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
